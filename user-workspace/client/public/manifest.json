@@ -1,0 +1,41 @@
+{
+  "short_name": "SMDI",
+  "name": "Smart Monitoring Device Integration",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#1976d2",
+  "background_color": "#ffffff",
+  "description": "Admin Panel for managing electrical systems and energy audits",
+  "orientation": "portrait",
+  "categories": ["utilities", "productivity"],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "Dashboard",
+      "url": "/dashboard",
+      "description": "View system dashboard"
+    },
+    {
+      "name": "Energy Audit",
+      "url": "/energy-audit",
+      "description": "Run energy audit"
+    }
+  ]
+}
